@@ -18,7 +18,7 @@ Contents
 
 # Project URL
 
-The project is published at: [Four card Feature section master](https://mkalkandev.github.io/NFT-preview-card-component/)
+The project is published at: [NFT preview card component](https://mkalkandev.github.io/NFT-preview-card-component/)
 
 # Features
 
