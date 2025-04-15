@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+      --soft-blue: #a9c4e6;
+      --cyan1: #00fff7;
+      --bg-dark-main: #0b1220;
+      --bg-dark-card: #121e32;
+      --border-dark-line: #263547;
+    }
+     .font-title {
+       font-family: 'Outfit', sans-serif;
+     }
+      
+  }
+
+  @layer utilities{
+    .bg-dark-main{
+        background-color: var(--bg-dark-main);
+    }
+    .bg-dark-card{
+        background-color: var(--bg-dark-card);
+    }
+    .bg-soft-blue{
+        background-color: var(--soft-blue);
+    }
+    .bg-cyan{
+        background-color: var(--cyan1);
+    }
+    .border-dark-line{
+        border-color: var(--border-dark-line);
+    }
+    .text-dark-main{
+        color: var(--bg-dark-main);
+    }
+    .text-dark-card{
+        color: var(--bg-dark-card);
+    }
+    .text-soft-blue{
+        color: var(--soft-blue);
+    }
+    .text-dark-line{
+        color: var(--border-dark-line);
+    }
+    .text-cyan{
+        color: var(--cyan1);
+    }
+  }
